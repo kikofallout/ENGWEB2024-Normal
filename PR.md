@@ -36,6 +36,8 @@ E depois instalei o Mongoose com o comando:
 
 ```npm install mongoose```
 
+É importante referir que a rota que tem a entidade como query string (GET /contratos?entidade=X) utiliza o NIPC da entidade, para facilitar as ligações a fazer na interface.
+
 Para testar a API, utilizei o Postman, fazendo pedidos GET, POST, PUT e DELETE para a API, que corre no endereço http://localhost:16000 (porta definida no ficheiro bin/www).
 
 Interface:
